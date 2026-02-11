@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+
+  <link rel="icon" type="image/svg+xml" href="https://dilihatyuk.feeldream.repl.co/icon.png"> 
+  <link rel="apple-touch-icon" href="https://dilihatyuk.feeldream.repl.co/icon.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://feeldreams.github.io/lihatya/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+<head>
+<title>Script HTML buat Kamu</title>
+<meta name="description" content="HTML Feeldream Repl Co">
+</head>
+<body>
+	
+	<!-- Loading Teks -->
+   <div class="overlay">
+     <div class="loading-message">Hai Adekkk!<br>masih nganbek ya..</div>
+   </div>
+   
+   <!-- Audio MP3 -->
+   <audio src="https://feeldreams.github.io/audio/angelbaby.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <!-- Halaman Pertama -->
+   <section class="first" onclick="playaud()">
+       <div class="wp"><img id="imgsatu" src="https://feeldreams.github.io/pics/awan/1.jpg"/></div>
+       <img id="first_stiker" class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
+       <h2 class="title">Halloooo Sayangkuu Cintakuuu Luthfiakuuu</h2>
+       <h4 class="title"><i>Kalo Nganbek Jangan Lama lama yaaa</i></h4>
+       <p class="slide-up"><i>nanti cepat tua loooh</i></p>
+  </section>
+  
+  <!-- Halaman Kedua -->
+  <section>
+      <div class="wp"><img id="imgtiga" src="https://feeldreams.github.io/pics/awan/3.jpg"/></div>
+      <img class="stiker fade-in" src="https://feeldreams.github.io/pusn.gif"/>
+      <h3 class="title">Maafin yaa dekkk</h3>
+      <p id="teksnimasisatu">Maaf yaa belom bisa ngertiin adek maaf kalo mas ngeselin, iyaa janji bakal lebih ngeselin lagiii</p>
+  </section>
+  
+  <!-- Halaman Ketiga -->
+  <section>
+      <div class="wp"><img id="imgdua" src="https://feeldreams.github.io/pics/awan/2.jpg"/></div>
+      <img class="stiker fade-in" src="https://feeldreams.github.io/cilukba.gif"/>
+      <h3 class="title">Adek maafin kan yaaa</h3>
+  </section>
+  
+  <!-- Halaman Keempat -->
+  <section>
+  	<div class="wp"><img id="imglima" src="https://feeldreams.github.io/pics/awan/3.jpg"/></div>
+      <img id="stikersatu" class="stiker fade-in" src="https://feeldreams.github.io/bwa2.gif"/>
+      <img id="stikerdua" src="https://feeldreams.github.io/weee.gif"/>
+      <h3 id="teksnimasi">Adek mau maafin kan?😉😚</h3>
+      <div id="Tombol">
+       <a id="By">Mau</a>
+       <a id="Bn">Gamau!!!</a>
+     </div>
+  </section>
+  
+  <!-- Halaman Terakhir -->
+  <section id="iniakhir">
+  	<div class="wp" id="wpakhir"><img src="https://feeldreams.github.io/pics/awan/6.jpg"/></div>
+      <img id="stikerakhir" class="stiker fade-in" src="https://feeldreams.github.io/cilukba.gif"/>
+      <img id="stikerakhir2" style="display:none" src="https://feeldreams.github.io/emawh.gif"/>
+      <h1 id="judulakhir"></h1><p id="kalimatakhir"></p><p id="palingakhir"></p>
+      <div id="TombolWA">
+       <a onClick="menuju()">I love you sayangg😘😘💕🥰💌</a>
+     </div>
+  </section>
+  
+  <!-- Tombol Next Halaman -->
+  <div id="initom" class="menu">
+  <a class='tombol' onclick="tes()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/> </svg>
+  </a>
+  </div>
+
+<!-- Edit Teks Akhir di bawah ini -->
+<script>
+const body = document.querySelector("body"); audio = new Audio('' + linkmp3.src); function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);initom.style="opacity:0;bottom:0;transition:none";
+
+document.getElementById('By').onclick = function(){
+       fungsi=0;tes();
+       teksjudulakhir = "Yeaay😍😍😍";
+       tekskalimatakhir = "Makasih yaa udah dimaafin🫰";
+       teksmunculakhir="I Love you sayangg🥰🥰🥰🥰🥰💕";
+       tekspalingakhir = "Saaaaayang Adekk🫰🫰🫰🫶🫶";
+       pesanwhatsapp = "...";
+}
+  
+document.getElementById('Bn').onclick = function(){
+       fungsi=0;tes();
+       teksjudulakhir = "Yaaaaah Tapi boong😅";
+       tekskalimatakhir = "yaa harus di maafin dong😘";
+       teksmunculakhir="I Love you sayangg🥰🥰🥰🥰🥰💕";
+       tekspalingakhir = "Saaaaayang Adekk🫰🫰🫰🫶🫶";
+       pesanwhatsapp = "...";
+}
+</script>
+<script src="https://feeldreams.github.io/lihatya/script2.js"></script>
+</body>
+</html>
